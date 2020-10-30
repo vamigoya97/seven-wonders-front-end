@@ -2,37 +2,176 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#app-title {
+  font-size: 50px;
+  height: 40px;
+  margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .wonder-card {
+  /* position: absolute; */
+  /* margin-top: 250px; */
+
+.home-link {
+  position: absolute;
+  top: 30px;
+  right: 120px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.images {
+  /* position: relative;
+  left: 290px; */
+  width: 80%;
+  height: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column; 
 }
 
-.App-link {
-  color: #61dafb;
+.info {
+  position: fixed;
+  left: 1000px;
+  top: 250;
+  background-color: red;
+  border-style: solid;
+  padding: 20px 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.voting-buttons {
+  display: flex;
+  justify-content: space-around;
 }
+
+/* .voting-buttons:nth-child(even) {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+.home{
+  /* margin-top: 250px; */
+}
+
+button:nth-child(even) {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  color: black;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 200px
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+button:nth-child(odd) {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  color: black;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+span {
+  font-size: 20px;
+  color: red;
+}
+
+#wonder-name {
+  display: block;
+  width: auto;
+  height: auto;
+  border-style: solid;
+  background-color: white;
+} 
+
+#location{
+  display: block;
+  width: auto;
+  border-style: solid;
+  background-color: white;
+}
+
+#date-built {
+  display: block;
+  width: auto;
+  border-style: solid;
+  background-color: white;
+}
+
+#description {
+  display: block;
+  width: auto;
+  border-style: solid;
+  overflow-wrap: break-word;
+  background-color: white;
+}
+
+.header {
+  background-color: white;
+  padding: 20px 20px;
+  font-weight: bolder;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+#links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.china {
+  background-image: url('./media/china.png');
+  background-repeat: no-repeat;
+  background-size: 205.92px 59px;
+}
+.brazil {
+  background-image: url('./media/brazil.png');
+  background-repeat: no-repeat;
+  background-size: 219.81px 59px;
+}
+.peru {
+  background-image: url('./media/peru.png');
+  background-repeat: no-repeat;
+  background-size: 158.56px 59px;
+}
+.mexico {
+  background-image: url('./media/mexico.jpeg');
+  background-repeat: no-repeat;
+  background-size: 143.84px 59px;
+}
+.jordan {
+  background-image: url('./media/jordan.jpeg');
+  background-repeat: no-repeat;
+  background-size: 76.02px 59px;
+}
+.india {
+  background-image: url('./media/india.png');
+  background-repeat: no-repeat;
+  background-size: 114.06px 59px;
+}
+.italy {
+  background-image: url('./media/italy.png');
+  background-repeat: no-repeat;
+  background-size: 201.77px 59px;
+}
+
+a:link, a:visited {
+  border-radius: 5px;
+  border-style: groove;
+  color: black;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: wavy;
+}
+
