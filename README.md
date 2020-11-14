@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Seven Wonders of the World
+
+## Description
+
+Web app that allows the user to explore and learn about the seven ancient wonders of the world through an interactive interface. 
+
 
 ## Available Scripts
 
