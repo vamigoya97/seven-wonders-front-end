@@ -6,6 +6,10 @@ Web app that allows the user to explore and learn about the seven ancient wonder
 
 ![](wonders-gif.gif)
 
+## Technologies
+
+This app's back-end was built with Ruby on Rails framework with the data seeded manually. The front-end was developed with React taking advantage of the framework's react-router-dom package. 
+
 ## Available Scripts
 
 In the project directory, you can run:
