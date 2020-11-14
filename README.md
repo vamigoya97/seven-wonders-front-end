@@ -4,7 +4,7 @@
 
 Web app that allows the user to explore and learn about the seven ancient wonders of the world through an interactive interface. 
 
-![](seven-wonders-gif.gif)
+![](wonders-gif.gif)
 
 ## Available Scripts
 
